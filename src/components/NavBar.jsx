@@ -8,7 +8,6 @@ import { userContext } from '../context';
 
 export default function NavBar(props) {
     const user = useContext(userContext)
-    console.log(user);
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
